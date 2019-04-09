@@ -1,6 +1,6 @@
 package Bubble;
 
-public class Bubble {
+public class Bubble {//从前到后依次比较相邻2个数的大小，若前>后，则交换顺序，一次遍历后，最大的元素到了数列的末尾。重复此操作，直到有序为止。
     public static void bubbleSort2(int[] a, int n) {
         int i,j;
         int flag;                 // 标记
