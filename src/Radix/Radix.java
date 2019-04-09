@@ -1,6 +1,6 @@
 package Radix;
 
-public class Radix {
+public class Radix {//基数排序：从个位开始分类，个位为0的放一起，个位为1的放一起，然后十位开始分类，依次类推，直到排序结束
     public int getDigit(int x, int d) {
         int a[] = {
                 1, 1, 10, 100

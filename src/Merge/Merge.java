@@ -2,7 +2,7 @@ package Merge;
 
 import java.util.Arrays;
 
-public class Merge {
+public class Merge {//首先将序列拆分成n个子序列，再对已有序的子序列合并成一个有序序列。
     public static void main(String []args){
         int []arr = {9,8,7,6,5,4,3,2,1};
         sort(arr);

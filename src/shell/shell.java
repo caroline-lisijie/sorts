@@ -2,7 +2,7 @@ package shell;
 
 import jdk.nashorn.tools.Shell;
 
-public class shell {
+public class shell {//把记录按步长grap分组，对每组记录采用直接插入排序，随着grap逐步减小，整个数据合成一组，构成有序序列。
     public void shellSort(int[] list) {
         int gap = list.length / 2;
 
@@ -32,7 +32,6 @@ public class shell {
         }
         System.out.println();
     }
-
     public static void main(String[] args) {
         int[] array = {
                 9, 1, 2, 5, 7, 4, 8, 6, 3, 5

@@ -2,7 +2,7 @@ package Heap;
 
 import java.util.Arrays;
 
-public class Heap {
+public class Heap {//将待排序构造成一个大顶堆，此时整个序列的最大值就是堆顶的根结点，将其与末尾元素进行交换，此时末尾就是最大值，然后将剩下的n-1个元素构造成堆，反复，直到成了有序序列。
     public static void main(String[] args) {
         int[] arr = {9, 8, 7, 6, 5, 4, 3, 2, 1};
         sort(arr);
